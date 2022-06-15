@@ -1,0 +1,24 @@
+{
+  "name": "monitor-events",
+  "version": "0.0.1",
+  "description": "Monitor events app monorepo",
+  "main": "index.js",
+  "scripts": {
+    "cms-dev": "cd cms && npm run develop",
+    "fe-dev": "cd frontend && npm run start",
+    "dev": "concurrently \"npm run cms-dev\" \"npm run fe-dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladeiko/monitor-events.git"
+  },
+  "author": "vladeiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladeiko/monitor-events/issues"
+  },
+  "homepage": "https://github.com/vladeiko/monitor-events#readme",
+  "dependencies": {
+    "concurrently": "7.1.0"
+  }
+}
